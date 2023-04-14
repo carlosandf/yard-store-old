@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  endOfLine: 'off',
   env: {
     browser: true,
     amd: true,
