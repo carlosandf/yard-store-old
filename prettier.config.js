@@ -5,5 +5,6 @@ module.exports = {
   tabWidth: 2,
   useTabs: false,
   traillingComma: 'es5',
-  bracketSpacing: true
+  bracketSpacing: true,
+  endOfLine: 'auto'
 }
