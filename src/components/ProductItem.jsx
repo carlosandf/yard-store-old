@@ -18,6 +18,9 @@ function ProductItem({ product }) {
       <Image
         src={product.images[1] || logo}
         alt={product.title}
+        width="240"
+        height="200"
+        layout="responsive"
         className={styles["product-img"]}
       />
       <div className={styles["product-info"]}>
@@ -27,6 +30,8 @@ function ProductItem({ product }) {
         </div>
         <figure onClick={() => handleClick(product)} >
           <Image
+            width="40"
+            height="40"
             src={
               state.cart.includes(product)
                 ? addedToCartImg
